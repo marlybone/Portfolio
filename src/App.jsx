@@ -1,9 +1,12 @@
 import './App.css'
+import Navbar from './Components/Navbar'
+import Social from './Components/Social'
 
 export default function App() {
   return (
     <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
+      <Navbar/>
+      <Social/>
     </main>
   )
 }

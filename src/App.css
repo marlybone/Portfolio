@@ -1,5 +1,22 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 100vh
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.items {
+  padding: 10px;
 }
