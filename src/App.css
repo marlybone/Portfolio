@@ -1,7 +1,11 @@
+:root {
+background-image: linear-gradient(to right top, #325a78, #345572, #35516c, #364c65, #36485f, #31475d, #2b455a, #264457, #1a4554, #0f4650, #08464a, #0b4642);
+}
+
 main {
   height: auto;
   width: auto;
-  margin-left: 350px;
+  margin-left: 400px;
 }
 
 /* Navbar CSS*/
@@ -33,7 +37,36 @@ main {
 }
 
 
+
+
 /* Content Page CSS*/
+.items-content > h1 {
+  font-size: 5.5em;
+  margin: 0;
+  color: hsla(280, 100%, 82%, 1);
+}
+
+.items-content >  h2 {
+  font-size: 4.5em;
+  margin: 0;
+  color: hsla(313, 71%, 90%, 1)
+}
+
+.items-content > h3 {
+  color: hsla(313, 71%, 90%, 1);
+  margin: 0;
+}
+
+.items-content > p {
+  margin-top: 2.5%;
+  color: hsla(313, 71%, 90%, 1);;
+}
+
+.content-section {
+  margin-top: 12%;
+  margin-left: 2.5%;
+  margin-bottom: 20%;
+}
 
 /* Projects CSS */
 
