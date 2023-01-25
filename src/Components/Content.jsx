@@ -4,10 +4,10 @@ const Content = () => {
   return(
     <div className="content-section">
       <div className ='content-container'>
-        <div className='items-content'>
           <div className='picture-me'>
-            <img/>
+            <img src="src/img/img.jpg"/>
           </div>
+        <div className='items-content'>
           <h1>Marlon Stevenson</h1>
           <h2>Frontend Developer</h2>
           <h3>Javascript | React | CSS | HTML </h3>
