@@ -67,18 +67,20 @@ main {
   margin-top: 12%;
   margin-left: 2.5%;
   margin-bottom: 20%;
-  position: relative;
-  z-index: 1
-  
 }
 
 .items-content {
   position: relative;
 }
 
+.content-container {
+  width: auto;
+  position: absolute;
+}
+
 .picture-me > img {
   float: right;
-  margin-right: 500px;
+  margin-right: 34%;
   z-index: 2;
   border-radius: 5%;
   height: 400px;
@@ -92,7 +94,22 @@ main {
 }
 
 /* Projects CSS */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 15%;
+}
 
+.the-grid {
+  position: relative;
+  margin-top: 60%;
+  margin-left: 3%;
+}
+
+.grid-container > h1 {
+  font-size: 3em;
+  padding: 15px;
+}
 
 
 /* Social Page CSS*/

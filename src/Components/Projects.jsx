@@ -2,6 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return(
+  <div className='the-grid'>
     <div className="grid-container">
       <h1>Some of my Projects</h1>
       <div className="grid-items">
@@ -35,6 +36,7 @@ const Projects = () => {
           </div>
         </div>
     </div>
+  </div>
   )
 }
 
