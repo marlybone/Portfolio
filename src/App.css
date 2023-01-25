@@ -1,10 +1,10 @@
 main {
-  text-align: center;
-  vertical-align: center;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
+  margin-left: 350px;
 }
 
+/* Navbar CSS*/
 .navbar {
   display: flex;
   flex-direction: row-reverse;
@@ -15,7 +15,7 @@ main {
 .nav-items {
   display: flex;
   flex-wrap: nowrap;
-  margin-right: 5%
+  padding: 5px;
 }
 
 .items {
@@ -28,6 +28,42 @@ main {
 
 .nav-items a {
   text-decoration: none;
-  margin-right: 40px;
+  margin-right: 10px;
   color: black
+}
+
+
+/* Content Page CSS*/
+
+/* Projects CSS */
+
+
+
+/* Social Page CSS*/
+.side-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  overflow-y: none;
+}
+
+.side-container > a {
+  padding: 15px;
+}
+
+.side-items {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-items > a {
+  padding: 20px;
 }
