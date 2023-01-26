@@ -4,11 +4,13 @@ import Social from './Components/Social'
 import Content from './Components/Content'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+import { useEffect, useRef, useState } from 'react'
 
 export default function App() {
   return (
     <main>
-      <Navbar/>
+      <Navbar
+        />
       <Content />
       <Social/>
       <Projects/>
