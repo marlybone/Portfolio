@@ -1,6 +1,8 @@
 import React from 'react'
+import { useEffect, useState } from 'react';
 
 const Content = () => {
+  
   return(
     <div className="content-section">
       <div className ='content-container'>   
