@@ -4,13 +4,15 @@ const Projects = () => {
   return(
   <section>
   <div className='the-grid'>
-    <div className="grid-container">
-      <h1>Some of my Projects</h1>
+    <h1>Some of my Projects</h1>
+    <div className="grid-container">  
       <div className="grid-items">
         <div className="project-card">
           <img src='' alt=''/>
             <h3>Project</h3>
-            <p>Paragraph</p>
+          <div className='project-box'>
+            <p>I built this using google maps API and Placeservices to get tourist attractions within a radius on the searched place.</p>
+          </div>
             <a>
               <img/>
             </a>
@@ -18,7 +20,9 @@ const Projects = () => {
         <div className="project-card">
           <img src='' alt=''/>
             <h3>Project</h3>
-            <p>Paragraph</p>
+            <div className='project-box'>
+            <p>I built this using google maps API and Placeservices to get tourist attractions within a radius on the searched place.</p>
+          </div>
             <a>
               <img/>
             </a>
@@ -26,7 +30,9 @@ const Projects = () => {
         <div className="project-card">
           <img src='' alt=''/>
             <h3>Project</h3>
-            <p>Paragraph</p>
+            <div className='project-box'>
+            <p>I built this using google maps API and Placeservices to get tourist attractions within a radius on the searched place.</p>
+          </div>
             <a>
               <img/>
             </a>
