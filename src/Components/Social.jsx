@@ -4,6 +4,16 @@ import { faGithub , faTwitter , faCodepen , faLinkedin } from '@fortawesome/free
 
 
 const Social = () => {
+   const icons = document.querySelectorAll('.fontawesome-icons');
+    icons.forEach(icon => {
+     icon.addEventListener('mouseover',()=>{
+      icon.style.top = '-3px';
+  });
+    icon.addEventListener('mouseout',()=>{
+      icon.style.top = '0px';
+  });
+});
+  
   return(
     <div className="side-container">
       <div className='side-items'>

@@ -130,7 +130,11 @@ main {
 .fontawesome-icons {
   font-size: 1.5em;
   color: white; 
+  position: relative;
+  will-change: top;
+  transition: top 0.2s ease-out;
 }
+
 
 /* Contact CSS--------------------------------------------------------------------------------*/
 .reach-out {
