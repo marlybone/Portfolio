@@ -7,10 +7,10 @@ const Social = () => {
   return(
     <div className="side-container">
       <div className='side-items'>
-        <a href=""><FontAwesomeIcon icon={faLinkedin}/></a>
-        <a href=""><FontAwesomeIcon icon={faTwitter}/></a>
-        <a href=""><FontAwesomeIcon icon={faGithub}/></a>
-        <a href=""><FontAwesomeIcon icon={faCodepen}/></a>
+        <a href=""><FontAwesomeIcon icon={faLinkedin} className="fontawesome-icons"/></a>
+        <a href=""><FontAwesomeIcon icon={faTwitter} className="fontawesome-icons"/></a>
+        <a href=""><FontAwesomeIcon icon={faGithub} className="fontawesome-icons"/></a>
+        <a href=""><FontAwesomeIcon icon={faCodepen} className="fontawesome-icons"/></a>
       </div>
     </div>
   )
