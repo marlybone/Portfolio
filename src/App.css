@@ -70,6 +70,7 @@ main {
   margin-bottom: 10%;
   display: flow-root;
   position: relative;
+  height: 70vh;
 }
 
 .items-content {
