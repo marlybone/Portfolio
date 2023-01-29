@@ -4,8 +4,8 @@ background-image: linear-gradient(to left, #002844, #0a2943, #122942, #172a40, #
 
 main {
   height: auto;
-  margin-right: 370px;
-  margin-left: 390px;
+  margin-right: 410px;
+  margin-left: 410px;
 }
 
 /* Navbar CSS--------------------------------------------------------------------------------*/
@@ -85,7 +85,7 @@ main {
   position: absolute;
   right: 0;
   top: 0;
-  margin-right: 10%;
+  margin-right: 5%;
   float: right;
   z-index: -1;
   border-radius: 5%;
@@ -171,60 +171,72 @@ main {
 }
 
 .image-one-col-span-two {
-  grid-column: 1 / 2;
-  position: relative;
-  grid-column-end: span col2-start;
+  grid-column: 1;
+  row-column: 1;
 }
 
 .image-one-col-span-two > img {
   height: 360px;
-  width: 530px;
+  width: 550px;
 }
 
 .text-col-span-two{
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
   border-radius: 1%;
-  height: 250px;
+  height: 200px;
   width: 550px;
   color: white;
   font-size: 1.5em;
-  grid-column: 1;
+  grid-row: 1;
+  grid-column: 3;
+  justify-self: end;
+  align-self: center;
 }
-.image-two-col-span-two {
 
+.image-two-col-span-two {
+  grid-row-start: 2;
+  grid-column: -2;
+  justify-self: end;
 }
 
 .image-two-col-span-two > img {
   height: 360px;
-  width: 530px;
+  width: 550px;
 }
 
 .text-two-col-span-two {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
   border-radius: 1%;
-  height: 250px;
+  height: 200px;
   width: 550px;
   color: white;
   font-size: 1.5em;
+  align-self: center;
+  justify-self: start;
+  grid-row: 2;
 }
 .image-three-col-span-two {
-  height: 100%;
-  width: 100%;
+  grid-row-start: 3;
+  grid-column; 1;
 }
 
 .image-three-col-span-two > img {
   height: 360px;
-  width: 530px;
+  width: 550px;
 }
 
 .text-three-col-span-two {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
   border-radius: 1%;
-  height: 250px;
+  height: 200px;
   width: 550px;
   color: white;
   font-size: 1.5em;
+  align-self: center;
+  grid-row: 3;
+  grid-column: -2;
+  justify-self: end;
 }
