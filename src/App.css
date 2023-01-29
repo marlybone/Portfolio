@@ -34,7 +34,7 @@ main {
 .nav-items a {
   text-decoration: none;
   margin-right: 40px;
-  color: green;
+  color: white;
   padding: 10px;
 }
 
@@ -141,32 +141,44 @@ main {
 
 .contact-section {
   align-items: center;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 
 .reach-out > h1 {
   font-size: 3.5em;
   margin: 0;
+  color: hsl(280, 100%, 82%, 1);
 }
 
 .reach-out > h4 {
   margin: 0px;
+  color: white;
 }
 
 .paragraph {
   width: 40%;
   font-size: 1.1em;
   font-weight: 400px;
+  color: hsla(313, 71%, 90%, 1);
 }
 
 /* Projects CSS------------------------------------------------------------------------------ */
 .grid-container {
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
 }
 
 .image-one-col-span-two {
+  grid-column: 1 / 2;
+  position: relative;
+  grid-column-end: span col2-start;
+}
 
+.image-one-col-span-two > img {
+  height: 360px;
+  width: 530px;
 }
 
 .text-col-span-two{
@@ -177,11 +189,17 @@ main {
   width: 550px;
   color: white;
   font-size: 1.5em;
+  grid-column: 1;
 }
 .image-two-col-span-two {
-  height: 100%;
-  width: 100%;
+
 }
+
+.image-two-col-span-two > img {
+  height: 360px;
+  width: 530px;
+}
+
 .text-two-col-span-two {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
@@ -194,8 +212,13 @@ main {
 .image-three-col-span-two {
   height: 100%;
   width: 100%;
-
 }
+
+.image-three-col-span-two > img {
+  height: 360px;
+  width: 530px;
+}
+
 .text-three-col-span-two {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
@@ -204,5 +227,4 @@ main {
   width: 550px;
   color: white;
   font-size: 1.5em;
-  grid-column 2 / 3;
 }
