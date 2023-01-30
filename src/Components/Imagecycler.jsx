@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const imageCycler = () => {
+const ImageCycler = ({ images }) => {
     const [currentImage, setCurrentImage] = useState(0);
 
     useEffect(() => {
@@ -10,11 +10,15 @@ const imageCycler = () => {
       return () => clearInterval(interval);
     }, [currentImage, images.length]);
 
+  const styles = {
+    width:'550px',
+    height:'360px'
+  }
   return (
     <div>
-      <img src={images[currentImage]} alt='Image' />
+      <img src={images[currentImage]} alt='Image' style={styles}/>
     </div>
   );
 };
 
-export default imagecycler
+export default ImageCycler;

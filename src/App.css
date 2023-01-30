@@ -167,6 +167,7 @@ main {
 .grid-container {
   display: grid;
   grid-gap: 0.5rem;
+  grid-row-gap: 70px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
 }
 
@@ -180,11 +181,11 @@ main {
   width: 550px;
 }
 
-.text-col-span-two{
+.text-col-span-two {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
   border-radius: 1%;
-  height: 200px;
+  height: 140px;
   width: 550px;
   color: white;
   font-size: 1.5em;
@@ -192,6 +193,13 @@ main {
   grid-column: 3;
   justify-self: end;
   align-self: center;
+
+}
+
+.text-col-span-two > p {
+  font-size: 0.8em;
+  padding: 10px;
+  margin: 2%;
 }
 
 .image-two-col-span-two {
@@ -209,7 +217,7 @@ main {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
   border-radius: 1%;
-  height: 200px;
+  height: 140px;
   width: 550px;
   color: white;
   font-size: 1.5em;
@@ -231,7 +239,7 @@ main {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
   border-radius: 1%;
-  height: 200px;
+  height: 140px;
   width: 550px;
   color: white;
   font-size: 1.5em;
@@ -239,4 +247,12 @@ main {
   grid-row: 3;
   grid-column: -2;
   justify-self: end;
+}
+
+.github-project-one {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: end;
+  justify-self: center;
+  
 }

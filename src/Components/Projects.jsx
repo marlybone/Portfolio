@@ -1,6 +1,7 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
-import imagecycler from './Components/imagecycler'
+import Imagecycler from './Imagecycler'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Projects = () => {
   const styles = {
@@ -8,17 +9,30 @@ const Projects = () => {
      color: 'white',
     direction: 'rtl'
   }
+
+  const githubStyle = {
+    fontSize:'2em',
+    color:'white',  
+  }
   
+  const images = [
+    'src/img/ss01.jpg',
+    'src/img/ss02.jpg',
+    'src/img/ss03.jpg'
+  ]
   
   return(
     <div>
       <h1 style={{color:'white'}}>My Projects</h1>
       <div className='grid-container'>
-        <div className='image-one-col-span-two'><img src="src/img/ss02.jpg"/></div>
+        <div className='image-one-col-span-two'><Imagecycler className='places-proj' images={images}/></div>
         <h1 className='project-tags' style={styles}>Maps PlaceServices</h1>
+        <a className='github-project-one' href="" target="_blank">
+        <FontAwesomeIcon icon={faGithub} style={githubStyle} />
+        </a>
         <div className='text-col-span-two'>
         <p>
-          Using google maps API and CSV data from WorldBank Open data I created data visualisation on google Maps to visualize certain country data. Additionally I incorporated PlaceServices to search for Tourist attractions in cities based on searching
+          I utilized the Google Maps API and WorldBank Open Data's CSV information to craft a data visualization on Google Maps that showcases relevant country data. To enhance the user experience, I integrated Google's PlaceServices to allow for searching and identifying popular tourist destinations within cities.
         </p>
         </div>
         <div className='image-two-col-span-two'><img src="src/img/weather01.jpg"/></div>
