@@ -270,3 +270,8 @@ main {
   align-self: end;
   justify-self: center;
 }
+
+.github-code {
+  color: white;
+  font-size: 1.8em;
+}
