@@ -27,7 +27,7 @@ const Projects = () => {
       <div className='grid-container'>
         <div className='image-one-col-span-two'><Imagecycler className='places-proj' images={images}/></div>
         <h1 className='project-tags' style={styles}>Maps PlaceServices</h1>
-        <a className='github-project-one' href="" target="_blank">
+        <a className='github-project-one' href="https://github.com/marlybone/GoogleMapDataVis" target="_blank">
         <FontAwesomeIcon icon={faGithub} style={githubStyle} />
         </a>
         <div className='text-col-span-two'>
@@ -36,14 +36,20 @@ const Projects = () => {
         </p>
         </div>
         <div className='image-two-col-span-two'><img src="src/img/weather01.jpg"/></div>
-        <h1 className='project-tags' style={{transform: 'translateX(-100%)', color:'white'}}>Project #1</h1>
+        <h1 className='project-tags' style={{transform: 'translateX(-100%)', color:'white'}}>Weather App</h1>
+        <a className='github-project-two' href="https://github.com/marlybone/weather-app" target="_blank">
+        <FontAwesomeIcon icon={faGithub} style={githubStyle} />
+        </a>
         <div className='text-two-col-span-two'>
          <p>
           This is a project etc etc etc
         </p>
         </div>
         <div className='image-three-col-span-two'><img src="src/img/currcon01.jpg"/></div>
-        <h1 className='project-tags' style={styles}>Project #1</h1>
+        <h1 className='project-tags' style={styles}>Currency Converter</h1>
+        <a className='github-project-three' href="https://github.com/marlybone/CurrencyConverter" target="_blank">
+        <FontAwesomeIcon icon={faGithub} style={githubStyle} />
+        </a>
         <div className='text-three-col-span-two'>
          <p>
           This is a project etc etc etc

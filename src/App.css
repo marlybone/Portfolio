@@ -224,6 +224,7 @@ main {
   align-self: center;
   justify-self: start;
   grid-row: 2;
+  grid-column: 1;
 }
 .image-three-col-span-two {
   grid-row-start: 3;
@@ -254,5 +255,18 @@ main {
   grid-row: 1;
   align-self: end;
   justify-self: center;
-  
+}
+
+.github-project-two {
+  grid-row: 2;
+  grid-column: 1;
+  align-self: end;
+  justify-self: center;
+}
+
+.github-project-three {
+  grid-row: 3;
+  grid-column: 3;
+  align-self: end;
+  justify-self: center;
 }
