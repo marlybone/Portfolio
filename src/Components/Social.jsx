@@ -9,10 +9,10 @@ const Social = () => {
   return(
     <div className="side-container">
       <div className='side-items'>
-        <a href="https://www.linkedin.com/in/marlon-stevenson-510738109/"><FontAwesomeIcon icon={faLinkedin} className="fontawesome-icons"/></a>
-        <a href="https://twitter.com/Maestvenlon"><FontAwesomeIcon icon={faTwitter} className="fontawesome-icons"/></a>
-        <a href="https://github.com/marlybone"><FontAwesomeIcon icon={faGithub} className="fontawesome-icons"/></a>
-        <a href=""><FontAwesomeIcon icon={faCodepen} className="fontawesome-icons"/></a>
+        <a href="https://www.linkedin.com/in/marlon-stevenson-510738109/" target='_blank'><FontAwesomeIcon icon={faLinkedin} className="fontawesome-icons"/></a>
+        <a href="https://twitter.com/Maestvenlon" target='_blank'><FontAwesomeIcon icon={faTwitter} className="fontawesome-icons"/></a>
+        <a href="https://github.com/marlybone" target='_blank'><FontAwesomeIcon icon={faGithub} className="fontawesome-icons"/></a>
+        <a href="" target='_blank'><FontAwesomeIcon icon={faCodepen} className="fontawesome-icons"/></a>
       </div>
     </div>
   )
