@@ -42,7 +42,7 @@ const Projects = () => {
         </a>
         <div className='text-two-col-span-two'>
          <p>
-          I created a weather application using Google Maps, which showcases the weather conditions of the location where you drop the marker on the map. The app also displays the local time at that location on the marker
+          I created a weather application using Google Maps, which showcases the weather conditions of the location where you drop the marker on the map. The app also displays the local time at that location on the marker and imgs that are unique to the day/night cycle.
         </p>
         </div>
         <div className='image-three-col-span-two'><img src="src/img/currcon01.jpg"/></div>
