@@ -9,8 +9,7 @@ import { useEffect, useRef, useState } from 'react'
 export default function App() {
   return (
     <main>
-      <Navbar
-        />
+      <Navbar/>
       <Content />
       <Social/>
       <Projects/>
