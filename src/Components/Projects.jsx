@@ -22,7 +22,7 @@ const Projects = () => {
   ];
   useHoverIcons('.github-code');
   return(
-    <div>
+    <div className='grid--container'>
       <h1 style={{color:'white'}}>My Projects</h1>
       <div className='grid-container'>
         <div className='image-one-col-span-two'><Imagecycler className='places-proj' images={images}/></div>
