@@ -230,6 +230,10 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
 }
 
+@media (max-width ) {
+  
+}
+
 .image-one-col-span-two {
   grid-column: 1;
   row-column: 1;
@@ -238,6 +242,10 @@ main {
 .image-one-col-span-two > img {
   height: 360px;
   width: 550px;
+}
+
+@media (max-width ) {
+  
 }
 
 .text-col-span-two {
@@ -267,6 +275,10 @@ main {
   width: 550px;
 }
 
+@media (max-width ) {
+  
+}
+
 .text-two-col-span-two {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   background-image: linear-gradient(to right top, #2c385e, #2c385e, #2c385e, #2c385e, #2c385e);
@@ -290,6 +302,10 @@ main {
 .image-three-col-span-two > img {
   height: 360px;
   width: 550px;
+}
+
+@media (max-width ) {
+  
 }
 
 .text-three-col-span-two {
