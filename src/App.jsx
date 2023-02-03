@@ -5,15 +5,17 @@ import Content from './Components/Content'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import { useEffect, useRef, useState } from 'react'
+import styled from "styled-components"
+
 
 export default function App() {
   return (
     <main>
       <Navbar/>
       <Content />
-      <Social/>
       <Projects/>
       <Contact/>
+      <Social/>
     </main>
   )
 }
